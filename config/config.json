@@ -1,0 +1,18 @@
+{
+	"path_to_pt" : "checkpoints/crowdhuman_yolov5m.pt",
+	"pose_model" : "checkpoints/posehrnet_w48_256x192.pth",
+	"tracker_model" : "checkpoints/osnet_x0_25_msmt17.pt",
+	"path_to_ckpt" : "checkpoints/crowdhuman_yolov5m.pt",
+	"path_to_labels" : "checkpoints/crowdperson_classes.txt",
+	"camera_list": [
+	{
+		"url" : "test_ppe1.mp4",
+		"conf_thres" : 0.4,
+		"iou_thres" : 0.5,
+		"zone_cords" : {
+			"0" : [[[525,821], [453,945], [320,940], [415,810]],[0,0,255]],
+			"1" :  [[[390,1073], [430,1010], [1165,1000], [1175,1067]],[0,0,255]]
+		}
+	}
+	]
+}
