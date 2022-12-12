@@ -1,1 +1,2 @@
 crowdhuman_yolov5m.pt filter=lfs diff=lfs merge=lfs -text
+posehrnet_w48_256x192.pth filter=lfs diff=lfs merge=lfs -text
